@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+
+   
+.navbar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 15px;
+    background-color: #bec0e9;
+    }
+        
+    .navbar img{ 
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        
+        
+    .navbarList {
+        display: none;
+    }
+        
+        
+    .navbarList li {
+        margin: 0 10px;
+        display: block;
+    }
+        
+    .toggle-button {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+        
+    .toggle-button svg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+    }
+
+    .navbarDestok{
+        display: none;
+    }
+        
+    button {
+        border: none;
+        font-size: 14px; 
+        padding: 10px 15px; 
+        background-color: transparent; 
+    }
+        
+        
+    button a {
+        text-decoration: none;
+        color: inherit; 
+        
+    }   
+        
+    button:hover {
+         background-color: #b3b7e6; 
+        border-radius: 5px;
+    }  
+
+
+@media(min-width:850px){
+    .navbar h1 { 
+        font-size:20px;
+        font-family: "Baskervville SC", serif;
+        font-weight: 800;
+    }
+
+    .toggle-button {
+        display: none;
+        
+    }
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between; 
+        align-items: center;
+        padding: 15px;
+        background-color: #bec0e9;
+    }
+
+    .navbarList a {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        font-family: "Baskervville SC", serif;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .navbarDestok{
+        display: block;
+    }
+
+    .navbarList {
+        display: flex;
+        list-style: none;
+        flex-grow: 1; 
+        justify-content: flex-end;
+        align-items: center;
+        margin: 0 20px;
+    }
+
+    .navbarList li {
+        width: 18%;
+    }
+
+}

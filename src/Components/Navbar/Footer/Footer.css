@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+
+@media (min-width:390px){
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#bec0e9 ;
+    margin-top: 50px;
+
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    padding: 18px 18px 20px;
+    margin-left: 10px;
+    font-size: 9px;
+    color: #000000;
+    font-family: "Bodoni Moda SC", serif;
+    font-style: normal;
+}
+
+.footer img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    margin-top:5px ;
+    
+}
+
+
+.info-contact svg {
+    width: 10px;   
+}
+
+.info-contact h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-contact a {
+    display: flex;
+    justify-content:center;
+    padding: 5px;
+    align-items: center;
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #000000;
+}
+
+
+}

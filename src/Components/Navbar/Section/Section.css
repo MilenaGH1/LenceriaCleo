@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.section-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 50px;
+    margin: 5px;
+    cursor: pointer;
+
+    
+}
+
+.card-section {
+    background-color: #bec0e9;
+    width: 150px;
+    box-shadow: 8px 10px 11px 3px rgba(171, 170, 172, 0.75);
+}
+
+.card-section img {
+    width: 100px;
+    height: 16vh;
+    padding: 10px;
+}
+
+.card-section a{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.card-section p {
+    padding:10px ;
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+}
+
+@media(min-width:790px){
+
+
+.card-section img{
+    width: 125px;
+    height: 20vh;
+    padding: 10px;  
+}
+
+.card-section {
+    background-color: #bec0e9;
+    width: 170px;
+    box-shadow: 8px 10px 11px 3px rgba(171, 170, 172, 0.75);
+    
+}
+
+.card-section p {
+    padding:10px ;
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+    
+}
