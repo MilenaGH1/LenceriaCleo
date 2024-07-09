@@ -6,7 +6,7 @@ export const Navbar = () => {
 
   
     <div className="navbar">
-      <img src="./public/images/Logo.jpg" alt="" />
+      <img src="./images/Logo.jpg" alt="" />
       <button className="toggle-button"><IoMenu/>
         <ul className="navbarList">
           <li><button><a href="#">Home</a></button></li>
@@ -15,7 +15,7 @@ export const Navbar = () => {
         </ul>
       </button> 
       <div className='navbarDestok'>
-        
+
         <ul className="navbarList">
           <li><button><a href="#">Home</a></button></li>
           <li><button><a href="#">Catalogo</a></button></li>
